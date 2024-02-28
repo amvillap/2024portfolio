@@ -4,20 +4,20 @@ function Nav() {
     return (
         <>
             <nav>
-                <ul className="nav bar">
-                    <li>
+                <ul className="nav-bar">
+                    <li className="about-me">
                         <NavLink to="/aboutme">
-                            About me
+                            ABOUT ME
                         </NavLink>
                     </li>
-                    <li>
+                    <li className='projects'>
                         <NavLink to="/projects">
-                            Projects
+                            PROJECTS
                         </NavLink>
                     </li>
-                    <li>
+                    <li className='contact'>
                         <NavLink to="/contact">
-                            Contact
+                            CONTACT
                         </NavLink>
                     </li>
                 </ul>

@@ -1,13 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+#root {
+  min-height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: 'Courier Prime', 'Montserrat', 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #f6f5f0;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px black solid;
+  margin-bottom: 0px;
+  padding-right: 50px;
+}
+
+.hero {
+  text-align: center;
+  padding-top: 15%;
+
+}
+
+.name {
+  font-size: 85px;
+  margin-bottom: 0;
+  font-weight: lighter;
+}
+
+.fullstack {
+  font-size: 30px;
+  margin-top: 0;
+  font-weight: lighter;
+}
+
+h1 {
+  font-family: 'Montserrat';
+}
+
+a:visited {
+  color: black;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+  padding: 20px;
+}
+
+li {
+  padding: 10px;
+  font-size: 25px;
+}
+
+li.about-me:hover {
+  border: 1px solid black;
+  background-color: #ed593f;
+  padding: 8px;
+}
+
+li.projects:hover {
+  border: 1px solid black;
+  background-color: #808220;
+  padding: 8px;
+}
+
+li.contact:hover {
+  border: 1px solid black;
+  background-color: #F3A732;
+  padding: 8px;
 }
