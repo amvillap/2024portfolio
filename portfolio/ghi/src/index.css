@@ -51,6 +51,7 @@ code {
 
 h1 {
   font-family: 'Montserrat';
+  font-weight: lighter;
 }
 
 a:visited {
@@ -91,4 +92,94 @@ li.contact:hover {
   border: 1px solid black;
   background-color: #F3A732;
   padding: 8px;
+}
+
+.about-me-container {
+  display: flex;
+  padding: 0;
+  border-bottom: 1px solid black;
+}
+
+.about-me-container .left {
+  width: 60%;
+  border-right: 1px solid black;
+  padding: 50px;
+  font-size: 25px;
+}
+
+.about-me-container .right {
+  width: 40%;
+  text-align: center;
+}
+
+.menlayla {
+  margin-bottom: 0px;
+}
+
+.about-me-container .left h1 {
+  font-size: 80px;
+  font-weight: lighter;
+}
+
+.about-me-container .left h1 strong {
+  color: #F3A732
+}
+
+.tech-stack {
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border-bottom: solid 1px black;
+  margin-bottom: 0;
+}
+
+.tech-stack-title {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+  font-size: 70px;
+  color: #ED593F;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding: 30px;
+}
+
+.icons .icon {
+  margin: 20px;
+  width: 180px;
+  height: 180px;
+}
+
+.icons .icon:hover {
+    transform: scale(1.2);
+}
+
+.micro-to-fullstack {
+  background-color: #ed593f;
+  color: white;
+  width: 40%;
+  padding: 80px 60px;
+  border-right: 1px solid black;
+  font-size: 50px;
+}
+
+.micro-to-fullstack h1, h4 {
+  margin: 0px;
+  text-align: center;
+}
+
+.micro-to-fullstack-container {
+  display: flex;
+}
+
+.micro-to-fullstack-text {
+  padding: 80px;
+  font-size: 25px;
+  display: flex;
+  align-items: center;
 }
