@@ -4,6 +4,7 @@ import AboutMe from './AboutMe';
 import Projects from './Projects';
 import Contact from './Contact';
 import Landing from './Landing';
+import Layla from './Layla';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
             <Route path='/aboutme' element={<AboutMe />} />
             <Route path='/projects' element={<Projects />}/>
             <Route path='/contact' element={<Contact />} />
+            <Route path='/layla' element={<Layla />} />
           </Routes>
         </div>
     </BrowserRouter>
