@@ -183,3 +183,71 @@ li.contact:hover {
   display: flex;
   align-items: center;
 }
+
+.popcorn-picks-project-container {
+  border: 1px solid black;
+  padding: 30px;
+  display: flex;
+  margin-right: 100px;
+  margin-left: 100px;
+  margin-top: 100px;
+  font-size: 30px;
+
+}
+
+.popcorn-picks-project-container:hover{
+  border: 1px solid black;
+  padding: 30px;
+  display: flex;
+  margin-right: 100px;
+  margin-left: 100px;
+  margin-top: 100px;
+  font-size: 30px;
+  background-color: #84AAE1;
+  color: #5E17EB;
+
+}
+
+.popcorn-picks-project-container img {
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  margin-right: 30px;
+}
+
+.project-container {
+  border: 1px solid black;
+  padding: 30px;
+  display: flex;
+  margin-right: 100px;
+  margin-left: 100px;
+  font-size: 30px;
+}
+
+.project-container:hover {
+  border: 1px solid black;
+  padding: 30px;
+  display: flex;
+  margin-right: 100px;
+  margin-left: 100px;
+  font-size: 30px;
+  background-color: #84AAE1;
+  color: #5E17EB;
+}
+
+.project-container img {
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  margin-right: 30px;
+}
+
+.project-title {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.project-title:hover{
+  font-weight:bolder;
+  color: #5E17EB;
+}
